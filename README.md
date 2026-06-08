@@ -53,9 +53,9 @@ preditivos de aprendizado de máquina.
 
 ## Estrutura
 
-1.README.md
-2.analise-oral-microbioma.ipynb  # Notebook principal
-3.oral_microbiome.csv       # Dataset
+- **README.md**
+- **analise-oral-microbioma.ipynb**  #Notebook principal
+- **oral_microbiome.csv**       #Dataset
 
 **Thainá Esther Soares da Silva**
 Engenharia de Software — UMC
