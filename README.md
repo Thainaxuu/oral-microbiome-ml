@@ -1,23 +1,23 @@
 # oral-microbiome-ml
 
-# 🦠 Microbioma Oral — Classificação NT vs ND
+## Microbioma Oral — Classificação NT vs ND
 
 Projeto de Machine Learning desenvolvido durante estágio supervisionado no
 **LaBiOmicS — Laboratório de Bioinformática e Ciências Ômicas (NPT/UMC)**.
 
-## 📌 Objetivo
+## Objetivo
 
 Investigar se a composição taxonômica do microbioma oral é capaz de distinguir
 indivíduos **Neurotípicos (NT)** de **Neurodivergentes (ND)** por meio de modelos
 preditivos de aprendizado de máquina.
 
-## 📊 Dataset
+## Dataset
 
 - **Fonte:** BioProject PRJNA362687 — NCBI SRA
 - **Amostras:** 111 (58 NT / 53 ND)
 - **Variáveis:** 10 filos bacterianos
 
-## 🛠️ Tecnologias
+## Tecnologias utilizada
 
 ![Python](https://img.shields.io/badge/Python-3.12-blue)
 ![XGBoost](https://img.shields.io/badge/XGBoost-green)
@@ -25,7 +25,7 @@ preditivos de aprendizado de máquina.
 ![TPOT](https://img.shields.io/badge/TPOT-AutoML-orange)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-grey)
 
-## ⚙️ Pipeline
+## Pipeline
 
 1. Carregamento e exploração dos dados (EDA)
 2. Pré-processamento com `StandardScaler`
@@ -35,7 +35,7 @@ preditivos de aprendizado de máquina.
 6. AutoML com `TPOT`
 7. Análise de importância das variáveis
 
-## 📈 Resultados
+## Resultados
 
 | Modelo | AUC (Teste) |
 |--------|------------|
@@ -43,9 +43,7 @@ preditivos de aprendizado de máquina.
 | LightGBM | 0.708 |
 | TPOT | 0.500* |
 
-*O TPOT apresentou limitações de compatibilidade no ambiente Colab (Python 3.12).
-
-## 🧬 Variáveis Mais Relevantes
+## Variáveis Mais Relevantes
 
 | Posição | Filo | Importância |
 |---------|------|------------|
@@ -56,7 +54,7 @@ preditivos de aprendizado de máquina.
 ## 📁 Estrutura
 
 ├── oral_microbiome.csv       # Dataset
-├── microbioma_oral_ml.ipynb  # Notebook principal
+├── analise-oral-microbioma.ipynb  # Notebook principal
 └── README.md
 
 **Thainá Esther Soares da Silva**
