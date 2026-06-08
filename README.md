@@ -51,11 +51,11 @@ preditivos de aprendizado de máquina.
 | 2º | p__Spirochaetota | 0.1461 |
 | 3º | p__Firmicutes | 0.1351 |
 
-## 📁 Estrutura
+## Estrutura
 
-├── oral_microbiome.csv       # Dataset
-├── analise-oral-microbioma.ipynb  # Notebook principal
-└── README.md
+README.md
+analise-oral-microbioma.ipynb  # Notebook principal
+oral_microbiome.csv       # Dataset
 
 **Thainá Esther Soares da Silva**
 Engenharia de Software — UMC
